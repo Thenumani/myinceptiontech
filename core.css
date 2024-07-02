@@ -1,0 +1,24 @@
+.core-container {
+  display: flex;
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  gap: 20px; /* Space between items */
+  padding: 20px;
+}
+
+.core-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px; /* Padding inside each item */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #fff; /* Optional: Background color */
+}
+
+.core-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px; /* Space between image and text */
+}
